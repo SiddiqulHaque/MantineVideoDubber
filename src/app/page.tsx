@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import React from "react";
 import MyHome from "../components/TableSelection";
 const Home = () => {
@@ -9,7 +8,7 @@ const Home = () => {
       <nav className="w-full flex justify-center px-10 py-2 text-blue-900 font-semibold   ">
         <Link href={"/addUser"}>Add User</Link>
       </nav>
-      <div className="px-20">
+      <div className="md:px-20 px-1">
         <MyHome />
       </div>
     </div>
