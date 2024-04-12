@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar";
 import UserList from "@/components/UserList";
 import Link from "next/link";
 import React from "react";
