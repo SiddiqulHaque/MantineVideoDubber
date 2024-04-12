@@ -80,7 +80,7 @@ export default function TableSelection() {
 
   return (
     <ScrollArea>
-      <Table miw={1100} verticalSpacing="sm">
+      <Table className='min-w-full' verticalSpacing="sm">
         <Table.Thead>
           <Table.Tr>
             <Table.Th style={{ width: rem(40) }}>
